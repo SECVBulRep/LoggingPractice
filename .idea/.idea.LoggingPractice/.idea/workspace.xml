@@ -41,6 +41,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.Api: IIS Express.executor": "Run",
     ".NET Launch Settings Profile.Api: http.executor": "Debug",
+    ".NET Project.LogMessageWithParams.DefaultLogging.executor": "Run",
     ".NET Project.LoggingPracticeBenchmark.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "node.js.detected.package.eslint": "true",
@@ -151,7 +152,7 @@
       <updated>1720973011506</updated>
       <workItem from="1720973012837" duration="325000" />
       <workItem from="1720973360282" duration="1872000" />
-      <workItem from="1720975273448" duration="2608000" />
+      <workItem from="1720975273448" duration="2867000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
