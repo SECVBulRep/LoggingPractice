@@ -23,7 +23,9 @@ public class WeatherForecastController : ControllerBase
     {
         
         
-        _logger.LogDebug("retrieving forecast for {days} days",days);
+        if(_logger.IsEnabled(LogLevel.Debug))
+            _logger.LogDebug("retrieving forecast for {days} days",days);
+        
         return Enumerable.Range(1, days).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
