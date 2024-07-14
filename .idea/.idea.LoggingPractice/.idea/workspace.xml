@@ -7,6 +7,7 @@
     <projectFile profileName="IIS Express">LoggingPracticeApi/LoggingPracticeApi.csproj</projectFile>
     <projectFile profileName="http">LoggingPracticeApi/LoggingPracticeApi.csproj</projectFile>
     <projectFile profileName="https">LoggingPracticeApi/LoggingPracticeApi.csproj</projectFile>
+    <projectFile>LoggingPracticeBenchmark/LoggingPracticeBenchmark.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -39,6 +40,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.Api: IIS Express.executor": "Run",
     ".NET Launch Settings Profile.Api: http.executor": "Debug",
+    ".NET Project.LoggingPracticeBenchmark.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -55,7 +57,25 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Api: http">
+  <component name="RunManager" selected=".NET Project.LoggingPracticeBenchmark">
+    <configuration name="LoggingPracticeBenchmark" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/LoggingPracticeBenchmark/LoggingPracticeBenchmark.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Api: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Api/Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -111,7 +131,8 @@
       <option name="presentableId" value="Default" />
       <updated>1720973011506</updated>
       <workItem from="1720973012837" duration="325000" />
-      <workItem from="1720973360282" duration="1404000" />
+      <workItem from="1720973360282" duration="1872000" />
+      <workItem from="1720975273448" duration="1635000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -139,13 +160,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api/Controllers/WeatherForecastController.cs</url>
-          <line>25</line>
+          <line>24</line>
           <properties documentPath="C:\Work\.net\LoggingPractice\LoggingPractice\Api\Controllers\WeatherForecastController.cs" containingFunctionPresentation="Method 'Get'">
             <startOffsets>
-              <option value="653" />
+              <option value="686" />
             </startOffsets>
             <endOffsets>
-              <option value="714" />
+              <option value="748" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
@@ -155,13 +176,26 @@
           <line>26</line>
           <properties documentPath="C:\Work\.net\LoggingPractice\LoggingPractice\Api\Controllers\WeatherForecastController.cs" containingFunctionPresentation="Method 'Get'">
             <startOffsets>
-              <option value="723" />
+              <option value="758" />
             </startOffsets>
             <endOffsets>
-              <option value="1053" />
+              <option value="1088" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Api/Controllers/WeatherForecastController.cs</url>
+          <line>23</line>
+          <properties documentPath="C:\Work\.net\LoggingPractice\LoggingPractice\Api\Controllers\WeatherForecastController.cs" containingFunctionPresentation="Method 'Get'">
+            <startOffsets>
+              <option value="635" />
+            </startOffsets>
+            <endOffsets>
+              <option value="673" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
