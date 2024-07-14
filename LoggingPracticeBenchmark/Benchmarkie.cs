@@ -38,4 +38,19 @@ public class Benchmarkie
         if (_logger.IsEnabled(LogLevel.Information))
             _logger.LogInformation(LogMessage);
     }
+    
+    
+    [Benchmark]
+    public void LogWithOut_If_WithParams()
+    {
+        _logger.LogInformation(LogMessageWithParams, 1,2,3);
+    }
+
+    [Benchmark]
+    public void LogWith_If_WithParams()
+    {
+        if (_logger.IsEnabled(LogLevel.Information))
+            _logger.LogInformation(LogMessageWithParams,1,2,3);
+    }
+    
 }
