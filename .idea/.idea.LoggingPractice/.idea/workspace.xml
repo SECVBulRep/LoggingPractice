@@ -4,6 +4,7 @@
     <projectFile profileName="IIS Express">Api/Api.csproj</projectFile>
     <projectFile profileName="http">Api/Api.csproj</projectFile>
     <projectFile profileName="https">Api/Api.csproj</projectFile>
+    <projectFile>LogMessageWithParams.DefaultLogging/LogMessageWithParams.DefaultLogging.csproj</projectFile>
     <projectFile profileName="IIS Express">LoggingPracticeApi/LoggingPracticeApi.csproj</projectFile>
     <projectFile profileName="http">LoggingPracticeApi/LoggingPracticeApi.csproj</projectFile>
     <projectFile profileName="https">LoggingPracticeApi/LoggingPracticeApi.csproj</projectFile>
@@ -57,7 +58,25 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.LoggingPracticeBenchmark">
+  <component name="RunManager" selected=".NET Project.LogMessageWithParams.DefaultLogging">
+    <configuration name="LogMessageWithParams.DefaultLogging" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/LogMessageWithParams.DefaultLogging/LogMessageWithParams.DefaultLogging.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="LoggingPracticeBenchmark" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -132,7 +151,7 @@
       <updated>1720973011506</updated>
       <workItem from="1720973012837" duration="325000" />
       <workItem from="1720973360282" duration="1872000" />
-      <workItem from="1720975273448" duration="2369000" />
+      <workItem from="1720975273448" duration="2608000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

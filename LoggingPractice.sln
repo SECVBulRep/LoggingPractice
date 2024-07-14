@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingPracticeBenchmark", "LoggingPracticeBenchmark\LoggingPracticeBenchmark.csproj", "{12CE2917-4EA9-442A-88F8-6009B822BDD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogMessageWithParams.DefaultLogging", "LogMessageWithParams.DefaultLogging\LogMessageWithParams.DefaultLogging.csproj", "{CE8C0566-7F33-4405-9B9B-AA7F44ED4CBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{12CE2917-4EA9-442A-88F8-6009B822BDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12CE2917-4EA9-442A-88F8-6009B822BDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12CE2917-4EA9-442A-88F8-6009B822BDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8C0566-7F33-4405-9B9B-AA7F44ED4CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8C0566-7F33-4405-9B9B-AA7F44ED4CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8C0566-7F33-4405-9B9B-AA7F44ED4CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8C0566-7F33-4405-9B9B-AA7F44ED4CBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
