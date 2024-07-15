@@ -4,8 +4,9 @@ using var _loggerFactory = LoggerFactory.Create(builder => { builder.AddConsole(
 
 ILogger logger = new Logger<Program>(_loggerFactory);
 
-for (int i = 0; i < 70_000_000; i++)
+for (int i = 0; i < 70_000_000_00; i++)
 {
+    if(logger.IsEnabled(LogLevel.Information))
     logger.LogInformation("Random number {RandomNumber}", Random.Shared.Next());
 }
 

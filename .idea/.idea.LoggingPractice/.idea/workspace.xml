@@ -14,7 +14,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99767dd7-77d0-4213-9b60-7142127cafd4" name="Changes" comment="" />
+    <list default="true" id="99767dd7-77d0-4213-9b60-7142127cafd4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/LogMessageWithParams.DefaultLogging/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LogMessageWithParams.DefaultLogging/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,9 +55,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\MSI\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\MSI\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\MSI\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\Bulat\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Bulat\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\Bulat\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -153,6 +155,7 @@
       <workItem from="1720973012837" duration="325000" />
       <workItem from="1720973360282" duration="1872000" />
       <workItem from="1720975273448" duration="2867000" />
+      <workItem from="1721058578222" duration="544000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -181,40 +184,19 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api/Controllers/WeatherForecastController.cs</url>
           <line>24</line>
-          <properties documentPath="C:\Work\.net\LoggingPractice\LoggingPractice\Api\Controllers\WeatherForecastController.cs" containingFunctionPresentation="Method 'Get'">
-            <startOffsets>
-              <option value="686" />
-            </startOffsets>
-            <endOffsets>
-              <option value="748" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Work\.net\LoggingPractice\LoggingPractice\Api\Controllers\WeatherForecastController.cs" containingFunctionPresentation="Method 'Get'" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api/Controllers/WeatherForecastController.cs</url>
           <line>26</line>
-          <properties documentPath="C:\Work\.net\LoggingPractice\LoggingPractice\Api\Controllers\WeatherForecastController.cs" containingFunctionPresentation="Method 'Get'">
-            <startOffsets>
-              <option value="758" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1088" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Work\.net\LoggingPractice\LoggingPractice\Api\Controllers\WeatherForecastController.cs" containingFunctionPresentation="Method 'Get'" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api/Controllers/WeatherForecastController.cs</url>
           <line>23</line>
-          <properties documentPath="C:\Work\.net\LoggingPractice\LoggingPractice\Api\Controllers\WeatherForecastController.cs" containingFunctionPresentation="Method 'Get'">
-            <startOffsets>
-              <option value="635" />
-            </startOffsets>
-            <endOffsets>
-              <option value="673" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Work\.net\LoggingPractice\LoggingPractice\Api\Controllers\WeatherForecastController.cs" containingFunctionPresentation="Method 'Get'" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
