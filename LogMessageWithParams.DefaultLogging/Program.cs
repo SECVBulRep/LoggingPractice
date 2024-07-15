@@ -6,8 +6,8 @@ ILogger logger = new Logger<Program>(_loggerFactory);
 
 for (int i = 0; i < 70_000_000_00; i++)
 {
-    if(logger.IsEnabled(LogLevel.Information))
-    logger.LogInformation("Random number {RandomNumber}", Random.Shared.Next());
+    //if (logger.IsEnabled(LogLevel.Information))
+        logger.LogInformation($"Random number {Random.Shared.Next()}");
 }
 
 //Console.ReadKey();
