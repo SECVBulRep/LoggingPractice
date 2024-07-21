@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingPracticeBenchmark", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogMessageWithParams.DefaultLogging", "LogMessageWithParams.DefaultLogging\LogMessageWithParams.DefaultLogging.csproj", "{CE8C0566-7F33-4405-9B9B-AA7F44ED4CBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging.BestPractice.SerilLog", "Logging.BestPractice.SerilLog\Logging.BestPractice.SerilLog.csproj", "{A84FB525-FDAA-4FD8-AB3B-123B8D646AD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{CE8C0566-7F33-4405-9B9B-AA7F44ED4CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE8C0566-7F33-4405-9B9B-AA7F44ED4CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE8C0566-7F33-4405-9B9B-AA7F44ED4CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84FB525-FDAA-4FD8-AB3B-123B8D646AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84FB525-FDAA-4FD8-AB3B-123B8D646AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84FB525-FDAA-4FD8-AB3B-123B8D646AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84FB525-FDAA-4FD8-AB3B-123B8D646AD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
